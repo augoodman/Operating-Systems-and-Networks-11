@@ -143,6 +143,60 @@ Module11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/build
 .PHONY : Module11/fast
 
+GoodmanDataLoader.o: GoodmanDataLoader.c.o
+
+.PHONY : GoodmanDataLoader.o
+
+# target to build an object file
+GoodmanDataLoader.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/GoodmanDataLoader.c.o
+.PHONY : GoodmanDataLoader.c.o
+
+GoodmanDataLoader.i: GoodmanDataLoader.c.i
+
+.PHONY : GoodmanDataLoader.i
+
+# target to preprocess a source file
+GoodmanDataLoader.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/GoodmanDataLoader.c.i
+.PHONY : GoodmanDataLoader.c.i
+
+GoodmanDataLoader.s: GoodmanDataLoader.c.s
+
+.PHONY : GoodmanDataLoader.s
+
+# target to generate assembly for a file
+GoodmanDataLoader.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/GoodmanDataLoader.c.s
+.PHONY : GoodmanDataLoader.c.s
+
+GoodmanPageTable.o: GoodmanPageTable.c.o
+
+.PHONY : GoodmanPageTable.o
+
+# target to build an object file
+GoodmanPageTable.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/GoodmanPageTable.c.o
+.PHONY : GoodmanPageTable.c.o
+
+GoodmanPageTable.i: GoodmanPageTable.c.i
+
+.PHONY : GoodmanPageTable.i
+
+# target to preprocess a source file
+GoodmanPageTable.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/GoodmanPageTable.c.i
+.PHONY : GoodmanPageTable.c.i
+
+GoodmanPageTable.s: GoodmanPageTable.c.s
+
+.PHONY : GoodmanPageTable.s
+
+# target to generate assembly for a file
+GoodmanPageTable.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Module11.dir/build.make CMakeFiles/Module11.dir/GoodmanPageTable.c.s
+.PHONY : GoodmanPageTable.c.s
+
 Simulator.o: Simulator.c.o
 
 .PHONY : Simulator.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Module11"
+	@echo "... GoodmanDataLoader.o"
+	@echo "... GoodmanDataLoader.i"
+	@echo "... GoodmanDataLoader.s"
+	@echo "... GoodmanPageTable.o"
+	@echo "... GoodmanPageTable.i"
+	@echo "... GoodmanPageTable.s"
 	@echo "... Simulator.o"
 	@echo "... Simulator.i"
 	@echo "... Simulator.s"

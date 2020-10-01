@@ -81,6 +81,12 @@
 		<Unit filename="/home/andrew/CLionProjects/Module11/DataLoader.h">
 			<Option target="Module11"/>
 		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/Module11/GoodmanDataLoader.c">
+			<Option target="Module11"/>
+		</Unit>
+		<Unit filename="/home/andrew/CLionProjects/Module11/GoodmanPageTable.c">
+			<Option target="Module11"/>
+		</Unit>
 		<Unit filename="/home/andrew/CLionProjects/Module11/PageTable.h">
 			<Option target="Module11"/>
 		</Unit>

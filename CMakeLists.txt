@@ -8,4 +8,6 @@ include_directories(.)
 add_executable(Module11
         DataLoader.h
         PageTable.h
-        Simulator.c)
+        Simulator.c
+        GoodmanDataLoader.c
+        GoodmanPageTable.c)

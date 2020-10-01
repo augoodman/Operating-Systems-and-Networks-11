@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Module11.dir/Simulator.c.o  -o Module11 
+/usr/bin/cc -g   CMakeFiles/Module11.dir/Simulator.c.o CMakeFiles/Module11.dir/GoodmanDataLoader.c.o CMakeFiles/Module11.dir/GoodmanPageTable.c.o  -o Module11 
