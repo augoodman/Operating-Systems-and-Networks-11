@@ -2,7 +2,7 @@
 * File:   GoodmanDataLoader.c
 * Simulate shortest-job first processor scheduling algorithms.
 *
-* Completion runningTime:  __ hours
+* Completion Time:  15 minutes
 *
 * @author Goodman
 * @version 2020.10.1
